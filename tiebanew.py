@@ -44,21 +44,5 @@ class RealTimeGet(object):
 		pool.join()
 		return t_list
 
-
-
 if __name__=='__main__':
 	print('百度贴吧获取实时最新贴子(回复)模块')
-	r = RealTimeGet('李毅')
-	u = r.GetUpdates()
-	for ue in u:
-		print(ue)
-	time.sleep(1)
-	print('*************round2****************')
-	u = r.GetUpdates()
-	for ue in u:
-		print(ue)
-	time.sleep(1)
-	print('*************round3****************')
-	u = r.GetUpdates()
-	for ue in u:
-		print(ue)

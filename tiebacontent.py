@@ -131,10 +131,3 @@ class TbImage(object):
 
 if __name__=='__main__':
 	print('百度贴吧内容获取模块')
-	# print('测试李毅吧：')
-	# m = MainPage('李毅')
-	# c = m.Threadlist()
-	# for x in c:
-	# 	print(x)
-	t = Thread('1000000000')
-	print(t.LastPost())
